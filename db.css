@@ -90,7 +90,17 @@ body {
   text-align: center;
   color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
 }
+
+/* 🔥 Hover Effect */
+.drop-box:hover {
+  transform: scale(1.03);
+  border: 2px solid #ff6a00;
+  box-shadow: 0 0 25px rgba(255, 106, 0, 0.5);
+}
+
 
 .icon-wrapper {
   width: 80px;
