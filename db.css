@@ -15,7 +15,6 @@ body {
   min-height: 100vh;
 }
 
-/* HERO SECTION */
 .hero {
   display: flex;
   flex-direction: column;
@@ -29,22 +28,20 @@ body {
   margin-bottom: 40px;
 }
 
-/* Bold Title with Agrandir */
 .title {
   font-family: 'Agrandir', sans-serif;
   font-size: 4rem;
-  font-weight: 800; /* Increased boldness */
+  font-weight: 800; 
   line-height: 1.1;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Makes it appear stronger */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); 
 }
 
-/* Bold Subtitle with Mulish */
 .subtitle {
   font-family: 'Mulish', sans-serif;
   font-size: 1rem;
-  font-weight: 800; /* Increased boldness */
+  font-weight: 800; 
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -52,8 +49,6 @@ body {
 }
 
 
-
-/* CENTERED BOX BELOW TEXT */
 .center-box {
   width: 100%;
   display: flex;
@@ -86,7 +81,6 @@ body {
   border-radius: 2px;
 }
 
-/* DROP BOX */
 .drop-box {
   width: 90%;
   max-width: 600px;
@@ -126,7 +120,6 @@ body {
   color: #eee;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .hero {
     padding: 40px 20px;
