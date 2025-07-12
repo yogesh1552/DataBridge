@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataBridge - Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=agrandir@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="dashboard">
+
+    <!-- Back Button -->
+    <div class="back-btn-wrapper">
+      <button class="back-btn" onclick="location.href='db.html'">⬅ Back to Upload Page</button>
+    </div>
+
+    <!-- Table Section -->
+    <section class="table-section">
+      <table>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+      </table>
+      <div class="status-bar">
+        Status: Rows: 10000 | Nulls Removed: 25 | Duplicates Removed: 6
+        <button class="proceed-btn">Proceed</button>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+      <h2>FILTER SECTION</h2>
+      <input type="text" placeholder="Keywords" />
+      <input type="text" placeholder="Filter Types" />
+      <button>Apply Filter</button>
+      <button>Remove</button>
+    </section>
+
+    <hr>
+
+    <!-- Visualization Section -->
+    <section class="visual-section">
+      <h2>VISUALIZATION SECTION</h2>
+      <input type="text" placeholder="Chart Type" />
+      <input type="text" placeholder="X-Axis & Y-Axis" />
+      <button>Show Chart</button>
+    </section>
+
+    <hr>
+
+    <!-- SQL Export Section -->
+    <section class="sql-export-section">
+      <h2>SQL EXPORT SECTION</h2>
+      <button class="export-btn">Download SQL</button>
+    </section>
+
+    <hr>
+
+    <!-- Upload to SQL Server -->
+    <section class="upload-sql-section">
+      <h2>UPLOAD TO SQL SERVER</h2>
+      <input type="text" placeholder="DB Type" />
+      <input type="text" placeholder="Hostname/IP" />
+      <input type="text" placeholder="Port" />
+      <input type="text" placeholder="Database Name" />
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <input type="text" placeholder="Table Name" />
+      <button class="upload-btn">Upload to Server</button>
+    </section>
+
+  </main>
+</body>
+</html>
+
+
